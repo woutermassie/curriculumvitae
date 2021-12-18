@@ -1,0 +1,16 @@
+.skill-block{
+        margin: 2em 2em 0 2em;
+    flex-grow: 1;
+
+    align-self: flex-start;
+    .title{
+        margin-top: 0px;
+        font-size: 19px;
+        text-transform: uppercase; 
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    ul{
+        padding-inline-start: 20px;
+    }
+}

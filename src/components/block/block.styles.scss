@@ -1,0 +1,48 @@
+.mainBlock{
+    text-align: left;
+    padding: 2em;
+    color: #686868;
+    flex-grow: 1;
+    max-width: 40%;
+    height: auto;
+    align-self: flex-start;
+    &.profile{
+        max-width: 100%;
+    }
+    .name {
+        margin-top: 0px;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .content {
+        font-size: 14px;
+        transform: translateZ(0);
+        backface-visibility: hidden;
+        .title{
+            // margin-top: 0px;
+            font-size: 14px;
+            margin-bottom: 5px;
+            margin-top: 15px;
+            font-weight: 700;
+        }
+        .subtitle{
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        ul{
+            margin-bottom: 5px;
+            li{
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .mainBlock{
+        // width: 300px;
+        max-width: 100%;
+    }
+
+}
