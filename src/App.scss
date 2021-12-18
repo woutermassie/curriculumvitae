@@ -34,7 +34,7 @@
   transition: all 1s ease-in-out;
 
   &:hover {
-    background: rgba( 255, 255, 255, 0.75 );
+    background: rgba( 255, 255, 255, 0.55 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.97 );
     border: 1px solid rgba( 255, 255, 255, 0.38 );
 }
@@ -68,7 +68,7 @@
   width: 40%;
   height: auto;
   padding-top: 40%;
-  bottom: -40%;
+  top: 600px;
   right: 20%;
   background: linear-gradient(0deg, rgba(255,156,243,1) 0%, rgba(255,253,199,1) 100%);
 
@@ -95,7 +95,7 @@
     left: -36%;
   }
   .circle3{
-    bottom: 0%;
+    top: 500px;
     right: 20%;
   }
 }
